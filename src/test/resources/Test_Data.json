@@ -1,0 +1,49 @@
+[
+  {
+    "currentPassword": "Rahul@123",
+    "newPassword": "Rahul@1234",
+    "confirmPassword": "Rahul@1234",
+
+    "revisedCurrentPassword": "Rahul@1234",
+    "revisedNewPassword": "Rahul@123",
+    "revisedConfirmPassword": "Rahul@123",
+
+    "invalidCurrentPassword": "invalidpwd",
+
+    "approverName": "Approver",
+    "approverDesignation": "Approver",
+
+    "approverUpdateName": "Approverabcd",
+    "approverUpdateDesignation": "Approverabcd",
+
+    "CO_Name": "Kevin Trivedi",
+    "CO_Designation": "Compliance Officer CS",
+
+    "CO_Updated_Name": "Kevin Trivedi abc",
+    "CO_Updated_Designation": "Compliance Officer CS abc",
+
+    "teamMemberName":"Team Member",
+    "teamMemberDesignation":"Team Member",
+
+    "teamMemberUpdatedName":"Team Member abcd",
+    "teamMemberUpdatedDesignation":"Team Member abcd",
+
+
+    "pinCode": "380024",
+    "otp": "334455",
+
+    "email": "rahuld@perfectqaservices.com",
+    "emailPassword": "Rahul@1818",
+
+    "invitedUserDesignation": "AutomationEngineer",
+    "invitedUserPassword": "Rahul@123",
+    "invitedUserConfirmPassword": "Rahul@123",
+
+    "invalidTaskName": "Invalid task testing abcdabcd",
+
+    "emailLoginPageUrl": "https://accounts.google.com/v3/signin/identifier?dsh=S-217384340%3A1672902225523117&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&rip=1&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AeAAQh6O6B6dTseoILn8znWBPfesj5y0tiofMyelTnt_I-PYHWgSaBEQhwfUy_EXbt5zsyCfexs_KQ",
+
+    "TaskName": "Daily automation check task (Repeat on holiday: Yes)"
+
+  }
+]

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ComplianceSutra" verbose="10">
+	<listeners>
+		<listener class-name="Config.RetryListener"></listener>
+	</listeners>
+	<!-- 01 CO_Settings -->
+	<test name="verifyEditProfileWithValidDetailsInCS Test">
+		<classes>
+			<class name="Tests.CO_Setting_Tests">
+				<methods>
+					<include name="verifyEditProfileWithValidDetailsInCS"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 02 CO_Settings -->
+	<test name="verifyAddNewCompanyFromSettingInCS Test">
+		<classes>
+			<class name="Tests.CO_Setting_Tests">
+				<methods>
+					<include name="verifyAddNewCompanyFromSettingInCS"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 03 CO_Settings -->
+	<test name="verifyChangePasswordFromSettingByCSOfficer Test">
+		<classes>
+			<class name="Tests.CO_Setting_Tests">
+				<methods>
+					<include name="verifyChangePasswordFromSettingByCSOfficer"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 04 CO_Settings -->
+	<test name="verifyAddNewMembersFromSettingByCSOfficer Test">
+		<classes>
+			<class name="Tests.CO_Setting_Tests">
+				<methods>
+					<include name="verifyAddNewMembersFromSettingByCSOfficer"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 05 CO_Settings -->
+	<test name="verifyDeleteTheCreatedMemberFromSettingByCSOfficer Test">
+		<classes>
+			<class name="Tests.CO_Setting_Tests">
+				<methods>
+					<include name="verifyDeleteTheCreatedMemberFromSettingByCSOfficer"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 06 CO_Settings -->
+	<test name="verifyChangePasswordByEnteringWrongCurrentPasswordByCSOfficer Test">
+		<classes>
+			<class name="Tests.CO_Setting_Tests">
+				<methods>
+					<include name="verifyChangePasswordByEnteringWrongCurrentPasswordByCSOfficer"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 07 CO_Settings -->
+	<test name="verifySignupProcessWithValidEmail Test">
+		<classes>
+			<class name="Tests.CO_Setting_Tests">
+				<methods>
+					<include name="verifySignupProcessWithValidEmail"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 08 CO_Settings -->
+	<test name="verifyDeleteAllTaskFromTrash Test">
+		<classes>
+			<class name="Tests.CO_Setting_Tests">
+				<methods>
+					<include name="verifyDeleteAllTaskFromTrash"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 09 CO_Settings -->
+	<test name="verifyCOLogoutFunctionality Test">
+		<classes>
+			<class name="Tests.CO_Setting_Tests">
+				<methods>
+					<include name="verifyCOLogoutFunctionality"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>

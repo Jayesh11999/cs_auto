@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ComplianceSutra" verbose="10">
+	<listeners>
+		<listener class-name="Config.RetryListener"></listener>
+	</listeners>
+	<!-- 01 Compliance_Notifications -->
+	<test name="verifyApprovedFilterInNotificationsMenu Test">
+		<classes>
+			<class name="Tests.Compliance_Notifications_Tests">
+				<methods>
+					<include name="verifyApprovedFilterInNotificationsMenu"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 02 Compliance_Notifications -->
+	<test name="verifyAssignedFilterInNotificationsMenu Test">
+		<classes>
+			<class name="Tests.Compliance_Notifications_Tests">
+				<methods>
+					<include name="verifyAssignedFilterInNotificationsMenu"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 03 Compliance_Notifications -->
+	<test name="verifyTasksFilterInNotificationsMenu Test">
+		<classes>
+			<class name="Tests.Compliance_Notifications_Tests">
+				<methods>
+					<include name="verifyTasksFilterInNotificationsMenu"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 04 Compliance_Notifications -->
+	<test name="verifyUpdatesFilterInNotificationsMenu Test">
+		<classes>
+			<class name="Tests.Compliance_Notifications_Tests">
+				<methods>
+					<include name="verifyUpdatesFilterInNotificationsMenu"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 05 Compliance_Notifications -->
+	<test name="verifyRejectedFilterInNotificationsMenu Test">
+		<classes>
+			<class name="Tests.Compliance_Notifications_Tests">
+				<methods>
+					<include name="verifyRejectedFilterInNotificationsMenu"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 06 Compliance_Notifications -->
+	<test name="verifyReassignedFilterInNotificationsMenu Test">
+		<classes>
+			<class name="Tests.Compliance_Notifications_Tests">
+				<methods>
+					<include name="verifyReassignedFilterInNotificationsMenu"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 07 Compliance_Notifications -->
+	<test name="verifyCommentFilterInNotificationsMenu Test">
+		<classes>
+			<class name="Tests.Compliance_Notifications_Tests">
+				<methods>
+					<include name="verifyCommentFilterInNotificationsMenu"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 08 Compliance_Notifications -->
+	<test name="verifyAllNotificationsFilterInNotificationsMenu Test">
+		<classes>
+			<class name="Tests.Compliance_Notifications_Tests">
+				<methods>
+					<include name="verifyAllNotificationsFilterInNotificationsMenu"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 09 Compliance_Notifications -->
+	<test name="verifySearchNotificationsWithValidDetails Test">
+		<classes>
+			<class name="Tests.Compliance_Notifications_Tests">
+				<methods>
+					<include name="verifySearchNotificationsWithValidDetails"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 10 Compliance_Notifications -->
+	<test name="verifySearchNotificationsWithInvalidTaskName Test">
+		<classes>
+			<class name="Tests.Compliance_Notifications_Tests">
+				<methods>
+					<include name="verifySearchNotificationsWithInvalidTaskName"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+</suite>

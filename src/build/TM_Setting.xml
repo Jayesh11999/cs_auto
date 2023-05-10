@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ComplianceSutra" verbose="10">
+	<listeners>
+		<listener class-name="Config.RetryListener"></listener>
+	</listeners>
+
+	<!-- 01 TM_Setting -->
+	<test name="verifyEditProfileDetailsFromSettingMenuByTeamMember Test">
+		<classes>
+			<class name="Tests.TM_Setting_Tests">
+				<methods>
+					<include name="verifyEditProfileDetailsFromSettingMenuByTeamMember"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<!-- 02 TM_Setting -->
+	<test name="VerifyTeamMemberChangePasswordFunctionality Test">
+		<classes>
+			<class name="Tests.TM_Setting_Tests">
+				<methods>
+					<include name="VerifyTeamMemberChangePasswordFunctionality"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 03 TM_Setting -->
+	<test name="verifyTeamMemberChangePasswordFunctionalityByEnteringWrongPasswordInCurrentPasswordField Test">
+		<classes>
+			<class name="Tests.TM_Setting_Tests">
+				<methods>
+					<include name="verifyTeamMemberChangePasswordFunctionalityByEnteringWrongPasswordInCurrentPasswordField"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 04 TM_Setting -->
+	<test name="verifyTeamMemberLogoutFunctionality Test">
+		<classes>
+			<class name="Tests.TM_Setting_Tests">
+				<methods>
+					<include name="verifyTeamMemberLogoutFunctionality"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>

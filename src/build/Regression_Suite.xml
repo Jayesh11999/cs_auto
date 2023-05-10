@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite :- Compliance Sutra" verbose="10" parallel="tests" thread-count="1">
+<listeners>
+    <listener class-name="Config.RetryListener"></listener>
+</listeners>
+
+    <!-- 01 Approver_Settings -->
+    <test name="verifyEditProfileDetailsFromSettingMenuByApprover Test">
+        <classes>
+            <class name="Tests.Approver_Setting_Tests">
+                <methods>
+                    <include name="verifyEditProfileDetailsFromSettingMenuByApprover"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 02 Approver_Settings -->
+    <test name="verifyApproverChangePasswordFunctionality Test">
+        <classes>
+            <class name="Tests.Approver_Setting_Tests">
+                <methods>
+                    <include name="verifyApproverChangePasswordFunctionality"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 03 Approver_Settings -->
+    <test name="verifyApproverChangePasswordFunctionalityByEnteringWrongPasswordInCurrentPasswordField Test">
+        <classes>
+            <class name="Tests.Approver_Setting_Tests">
+                <methods>
+                    <include name="verifyApproverChangePasswordFunctionalityByEnteringWrongPasswordInCurrentPasswordField"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 04 Approver_Settings -->
+    <test name="verifyApproverLogout Test">
+        <classes>
+            <class name="Tests.Approver_Setting_Tests">
+                <methods>
+                    <include name="verifyApproverLogout"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 05 Approver_Settings -->
+    <test name="verifyDeactivateAccountOfApproverAndRejectRequestByCO Test">
+        <classes>
+            <class name="Tests.Approver_Setting_Tests">
+                <methods>
+                    <include name="verifyDeactivateAccountOfApproverAndRejectRequestByCO"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 01 CO_Dashboard -->
+    <test name="verify_Overdue_TotalCounts_With_AssignToMe_AssignToOthers_NotAssigned_Counts Test">
+        <classes>
+            <class name="Tests.CO_Dashboard_Tests">
+                <methods>
+                    <include name="verify_Overdue_TotalCounts_With_AssignToMe_AssignToOthers_NotAssigned_Counts"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 02 CO_Dashboard -->
+    <test name="verify_Today_TotalCounts_With_AssignToMe_AssignToOthers_NotAssigned_Counts Test">
+        <classes>
+            <class name="Tests.CO_Dashboard_Tests">
+                <methods>
+                    <include name="verify_Today_TotalCounts_With_AssignToMe_AssignToOthers_NotAssigned_Counts"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 03 CO_Dashboard -->
+    <test name="verify_Next6Days_TotalCounts_With_AssignToMe_AssignToOthers_NotAssigned_Counts Test">
+        <classes>
+            <class name="Tests.CO_Dashboard_Tests">
+                <methods>
+                    <include name="verify_Next6Days_TotalCounts_With_AssignToMe_AssignToOthers_NotAssigned_Counts"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 04 CO_Dashboard -->
+    <test name="verify_8To30Days_TotalCounts_With_AssignToMe_AssignToOthers_NotAssigned_Counts Test">
+        <classes>
+            <class name="Tests.CO_Dashboard_Tests">
+                <methods>
+                    <include name="verify_8To30Days_TotalCounts_With_AssignToMe_AssignToOthers_NotAssigned_Counts"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 05 CO_Dashboard -->
+    <test name="verify_Beyond30Days_TotalCounts_With_AssignToMe_AssignToOthers_NotAssigned_Counts Test">
+        <classes>
+            <class name="Tests.CO_Dashboard_Tests">
+                <methods>
+                    <include name="verify_Beyond30Days_TotalCounts_With_AssignToMe_AssignToOthers_NotAssigned_Counts"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 06 CO_Dashboard -->
+    <test name="verify_TotalMenu_TotalCounts_With_AssignToMe_AssignToOthers_NotAssigned_Counts Test">
+        <classes>
+            <class name="Tests.CO_Dashboard_Tests">
+                <methods>
+                    <include name="verify_TotalMenu_TotalCounts_With_AssignToMe_AssignToOthers_NotAssigned_Counts"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 07 CO_Dashboard -->
+    <test name="verify_ApprovalPendingMenu_TotalCounts_With_ApprovalPendingByMe_ApprovalPendingByOthers_Counts Test">
+        <classes>
+            <class name="Tests.CO_Dashboard_Tests">
+                <methods>
+                    <include name="verify_ApprovalPendingMenu_TotalCounts_With_ApprovalPendingByMe_ApprovalPendingByOthers_Counts"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 08 CO_Dashboard -->
+    <test name="verify_RejectedTasksTotalCountsWith_AssignToMe_AssignToOthers_Counts Test">
+        <classes>
+            <class name="Tests.CO_Dashboard_Tests">
+                <methods>
+                    <include name="verify_RejectedTasksTotalCountsWith_AssignToMe_AssignToOthers_Counts"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 09 CO_Dashboard -->
+    <test name="verify_CompletedMenu_TotalCounts_With_CompletedByMe_CompletedByOthers_Counts Test">
+        <classes>
+            <class name="Tests.CO_Dashboard_Tests">
+                <methods>
+                    <include name="verify_CompletedMenu_TotalCounts_With_CompletedByMe_CompletedByOthers_Counts"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 10 CO_Dashboard -->
+    <test name="verify_DashboardTaskAnalytics_OverdueTotalCount_With_OverduePage_AllTask_Counts Test">
+        <classes>
+            <class name="Tests.CO_Dashboard_Tests">
+                <methods>
+                    <include name="verify_DashboardTaskAnalytics_OverdueTotalCount_With_OverduePage_AllTask_Counts"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 11 CO_Dashboard -->
+    <test name="verify_DashboardTaskAnalytics_TodayTotalCount_With_TodayPage_AllTask_Counts Test">
+        <classes>
+            <class name="Tests.CO_Dashboard_Tests">
+                <methods>
+                    <include name="verify_DashboardTaskAnalytics_TodayTotalCount_With_TodayPage_AllTask_Counts"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 12 CO_Dashboard -->
+    <test name="verify_DashboardTaskAnalytics_Next6DaysTotalCount_With_Next6DaysPage_AllTask_Counts Test">
+        <classes>
+            <class name="Tests.CO_Dashboard_Tests">
+                <methods>
+                    <include name="verify_DashboardTaskAnalytics_Next6DaysTotalCount_With_Next6DaysPage_AllTask_Counts"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 013 CO_Dashboard -->
+    <test name="verify_DashboardTaskAnalytics_8To30DaysTotalCount_With_8To30DaysPage_AllTask_Counts Test">
+        <classes>
+            <class name="Tests.CO_Dashboard_Tests">
+                <methods>
+                    <include name="verify_DashboardTaskAnalytics_8To30DaysTotalCount_With_8To30DaysPage_AllTask_Counts"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 14 CO_Dashboard -->
+    <test name="verify_DashboardTaskAnalytics_Beyond30DaysTotalCount_With_Beyond30DaysPage_AllTask_Counts Test">
+        <classes>
+            <class name="Tests.CO_Dashboard_Tests">
+                <methods>
+                    <include name="verify_DashboardTaskAnalytics_Beyond30DaysTotalCount_With_Beyond30DaysPage_AllTask_Counts"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 15 CO_Dashboard -->
+    <test name="verify_DashboardTaskAnalytics_TotalMenuTotalCount_With_TotalPage_AllTasks_Count Test">
+        <classes>
+            <class name="Tests.CO_Dashboard_Tests">
+                <methods>
+                    <include name="verify_DashboardTaskAnalytics_TotalMenuTotalCount_With_TotalPage_AllTasks_Count"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 16 CO_Dashboard -->
+    <test name="verify_DashboardTaskAnalytics_ApprovalPendingMenuTotalCountWith_ApprovalPendingAllTasks_Count Test">
+        <classes>
+            <class name="Tests.CO_Dashboard_Tests">
+                <methods>
+                    <include name="verify_DashboardTaskAnalytics_ApprovalPendingMenuTotalCountWith_ApprovalPendingAllTasks_Count"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 17 CO_Dashboard -->
+    <test name="verify_DashboardTaskAnalytics_CompletedMenuTotalCount_With_CompletedAndRequestedPage_AllTasks_Count Test">
+        <classes>
+            <class name="Tests.CO_Dashboard_Tests">
+                <methods>
+                    <include name="verify_DashboardTaskAnalytics_CompletedMenuTotalCount_With_CompletedAndRequestedPage_AllTasks_Count"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 18 CO_Dashboard -->
+    <test name="verify_DashboardTaskAnalytics_RejectedTasksMenuTotalCountWith_RejectedTasksPageAllTasks_Count Test">
+        <classes>
+            <class name="Tests.CO_Dashboard_Tests">
+                <methods>
+                    <include name="verify_DashboardTaskAnalytics_RejectedTasksMenuTotalCountWith_RejectedTasksPageAllTasks_Count"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 19 CO_Dashboard -->
+    <test name="verify_Task_Repetition_Updates Test">
+        <classes>
+            <class name="Tests.CO_Dashboard_Tests">
+                <methods>
+                    <include name="verify_Task_Repetition_Updates"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 01 CO_Settings -->
+    <test name="verifyEditProfileWithValidDetailsInCS Test">
+        <classes>
+            <class name="Tests.CO_Setting_Tests">
+                <methods>
+                    <include name="verifyEditProfileWithValidDetailsInCS"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 02 CO_Settings -->
+    <test name="verifyAddNewCompanyFromSettingInCS Test">
+        <classes>
+            <class name="Tests.CO_Setting_Tests">
+                <methods>
+                    <include name="verifyAddNewCompanyFromSettingInCS"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 03 CO_Settings -->
+    <test name="verifyChangePasswordFromSettingByCSOfficer Test">
+        <classes>
+            <class name="Tests.CO_Setting_Tests">
+                <methods>
+                    <include name="verifyChangePasswordFromSettingByCSOfficer"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 04 CO_Settings -->
+    <test name="verifyAddNewMembersFromSettingByCSOfficer Test">
+        <classes>
+            <class name="Tests.CO_Setting_Tests">
+                <methods>
+                    <include name="verifyAddNewMembersFromSettingByCSOfficer"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 05 CO_Settings -->
+    <test name="verifyDeleteTheCreatedMemberFromSettingByCSOfficer Test">
+        <classes>
+            <class name="Tests.CO_Setting_Tests">
+                <methods>
+                    <include name="verifyDeleteTheCreatedMemberFromSettingByCSOfficer"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 06 CO_Settings -->
+    <test name="verifyChangePasswordByEnteringWrongCurrentPasswordByCSOfficer Test">
+        <classes>
+            <class name="Tests.CO_Setting_Tests">
+                <methods>
+                    <include name="verifyChangePasswordByEnteringWrongCurrentPasswordByCSOfficer"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 07 CO_Settings -->
+    <test name="verifySignupProcessWithValidEmail Test">
+        <classes>
+            <class name="Tests.CO_Setting_Tests">
+                <methods>
+                    <include name="verifySignupProcessWithValidEmail"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 08 CO_Settings -->
+    <test name="verifyDeleteAllTaskFromTrash Test">
+        <classes>
+            <class name="Tests.CO_Setting_Tests">
+                <methods>
+                    <include name="verifyDeleteAllTaskFromTrash"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 09 CO_Settings -->
+    <test name="verifyCOLogoutFunctionality Test">
+        <classes>
+            <class name="Tests.CO_Setting_Tests">
+                <methods>
+                    <include name="verifyCOLogoutFunctionality"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 01 Compliance_Login_Tests -->
+    <test name="verifyLoginWithValidComplianceOfficerCredentials Test">
+        <classes>
+            <class name="Tests.Compliance_Login_Tests">
+                <methods>
+                    <include name="verifyLoginWithValidComplianceOfficerCredentials"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 02 Compliance_Login_Tests -->
+    <test name="verifyLoginWithValidTeamMemberCredentials Test">
+        <classes>
+            <class name="Tests.Compliance_Login_Tests">
+                <methods>
+                    <include name="verifyLoginWithValidTeamMemberCredentials"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 03 Compliance_Login_Tests -->
+    <test name="verifyLoginWithValidApproverCredentials Test">
+        <classes>
+            <class name="Tests.Compliance_Login_Tests">
+                <methods>
+                    <include name="verifyLoginWithValidApproverCredentials"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 01 Compliance_Notifications -->
+    <test name="verifyApprovedFilterInNotificationsMenu Test">
+        <classes>
+            <class name="Tests.Compliance_Notifications_Tests">
+                <methods>
+                    <include name="verifyApprovedFilterInNotificationsMenu"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 02 Compliance_Notifications -->
+    <test name="verifyAssignedFilterInNotificationsMenu Test">
+        <classes>
+            <class name="Tests.Compliance_Notifications_Tests">
+                <methods>
+                    <include name="verifyAssignedFilterInNotificationsMenu"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 03 Compliance_Notifications -->
+    <test name="verifyTasksFilterInNotificationsMenu Test">
+        <classes>
+            <class name="Tests.Compliance_Notifications_Tests">
+                <methods>
+                    <include name="verifyTasksFilterInNotificationsMenu"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 04 Compliance_Notifications -->
+    <test name="verifyUpdatesFilterInNotificationsMenu Test">
+        <classes>
+            <class name="Tests.Compliance_Notifications_Tests">
+                <methods>
+                    <include name="verifyUpdatesFilterInNotificationsMenu"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 05 Compliance_Notifications -->
+    <test name="verifyRejectedFilterInNotificationsMenu Test">
+        <classes>
+            <class name="Tests.Compliance_Notifications_Tests">
+                <methods>
+                    <include name="verifyRejectedFilterInNotificationsMenu"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 06 Compliance_Notifications -->
+    <test name="verifyReassignedFilterInNotificationsMenu Test">
+        <classes>
+            <class name="Tests.Compliance_Notifications_Tests">
+                <methods>
+                    <include name="verifyReassignedFilterInNotificationsMenu"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 07 Compliance_Notifications -->
+    <test name="verifyCommentFilterInNotificationsMenu Test">
+        <classes>
+            <class name="Tests.Compliance_Notifications_Tests">
+                <methods>
+                    <include name="verifyCommentFilterInNotificationsMenu"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 08 Compliance_Notifications -->
+    <test name="verifyAllNotificationsFilterInNotificationsMenu Test">
+        <classes>
+            <class name="Tests.Compliance_Notifications_Tests">
+                <methods>
+                    <include name="verifyAllNotificationsFilterInNotificationsMenu"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 09 Compliance_Notifications -->
+    <test name="verifySearchNotificationsWithValidDetails Test">
+        <classes>
+            <class name="Tests.Compliance_Notifications_Tests">
+                <methods>
+                    <include name="verifySearchNotificationsWithValidDetails"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 10 Compliance_Notifications -->
+    <test name="verifySearchNotificationsWithInvalidTaskName Test">
+        <classes>
+            <class name="Tests.Compliance_Notifications_Tests">
+                <methods>
+                    <include name="verifySearchNotificationsWithInvalidTaskName"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 01 Compliance_Updates -->
+    <test name="verifySearchUpdateFromUpdatesList Test">
+        <classes>
+            <class name="Tests.Compliance_Updates_Tests">
+                <methods>
+                    <include name="verifySearchUpdateFromUpdatesList"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 02 Compliance_Updates -->
+    <test name="verifySelectMoreThan12Updates Test">
+        <classes>
+            <class name="Tests.Compliance_Updates_Tests">
+                <methods>
+                    <include name="verifySelectMoreThan12Updates"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 03 Compliance_Updates -->
+    <test name="verifySearchOneMonthEmailLogs Test">
+        <classes>
+            <class name="Tests.Compliance_Updates_Tests">
+                <methods>
+                    <include name="verifySearchOneMonthEmailLogs"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 04 Compliance_Updates -->
+    <test name="verifySendUpdatesViaEmail Test">
+        <classes>
+            <class name="Tests.Compliance_Updates_Tests">
+                <methods>
+                    <include name="verifySendUpdatesViaEmail"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 01 Sign Up End To End -->
+    <test name="verifyNewUserSignUp Test">
+        <classes>
+            <class name="Tests.SignUp_Test">
+                <methods>
+                    <include name="verifyNewUserSignUp"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 01 TM_Setting -->
+    <test name="verifyEditProfileDetailsFromSettingMenuByTeamMember Test">
+        <classes>
+            <class name="Tests.TM_Setting_Tests">
+                <methods>
+                    <include name="verifyEditProfileDetailsFromSettingMenuByTeamMember"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+    <!-- 02 TM_Setting -->
+    <test name="VerifyTeamMemberChangePasswordFunctionality Test">
+        <classes>
+            <class name="Tests.TM_Setting_Tests">
+                <methods>
+                    <include name="VerifyTeamMemberChangePasswordFunctionality"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 03 TM_Setting -->
+    <test name="verifyTeamMemberChangePasswordFunctionalityByEnteringWrongPasswordInCurrentPasswordField Test">
+        <classes>
+            <class name="Tests.TM_Setting_Tests">
+                <methods>
+                    <include name="verifyTeamMemberChangePasswordFunctionalityByEnteringWrongPasswordInCurrentPasswordField"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 04 TM_Setting -->
+    <test name="verifyTeamMemberLogoutFunctionality Test">
+        <classes>
+            <class name="Tests.TM_Setting_Tests">
+                <methods>
+                    <include name="verifyTeamMemberLogoutFunctionality"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

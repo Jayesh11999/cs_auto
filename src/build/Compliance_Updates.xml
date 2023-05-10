@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ComplianceSutra" verbose="10">
+	<listeners>
+		<listener class-name="Config.RetryListener"></listener>
+	</listeners>
+	<!-- Compliance_Updates -->
+	<!-- 01 Compliance_Updates -->
+	<test name="verifySearchUpdateFromUpdatesList Test">
+		<classes>
+			<class name="Tests.Compliance_Updates_Tests">
+				<methods>
+					<include name="verifySearchUpdateFromUpdatesList"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 02 Compliance_Updates -->
+	<test name="verifySelectMoreThan12Updates Test">
+		<classes>
+			<class name="Tests.Compliance_Updates_Tests">
+				<methods>
+					<include name="verifySelectMoreThan12Updates"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 03 Compliance_Updates -->
+	<test name="verifySearchOneMonthEmailLogs Test">
+		<classes>
+			<class name="Tests.Compliance_Updates_Tests">
+				<methods>
+					<include name="verifySearchOneMonthEmailLogs"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 04 Compliance_Updates -->
+	<test name="verifySendUpdatesViaEmail Test">
+		<classes>
+			<class name="Tests.Compliance_Updates_Tests">
+				<methods>
+					<include name="verifySendUpdatesViaEmail"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

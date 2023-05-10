@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ComplianceSutra" verbose="10" >
+	<listeners>
+		<listener class-name="Config.RetryListener"></listener>
+	</listeners>
+	<!-- 01 CO_Dashboard -->
+	<test name="verify_Overdue_TotalCounts_With_AssignToMe_AssignToOthers_NotAssigned_Counts Test">
+		<classes>
+			<class name="Tests.CO_Dashboard_Tests">
+				<methods>
+					<include name="verify_Overdue_TotalCounts_With_AssignToMe_AssignToOthers_NotAssigned_Counts"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 02 CO_Dashboard -->
+	<test name="verify_Today_TotalCounts_With_AssignToMe_AssignToOthers_NotAssigned_Counts Test">
+		<classes>
+			<class name="Tests.CO_Dashboard_Tests">
+				<methods>
+					<include name="verify_Today_TotalCounts_With_AssignToMe_AssignToOthers_NotAssigned_Counts"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 03 CO_Dashboard -->
+	<test name="verify_Next6Days_TotalCounts_With_AssignToMe_AssignToOthers_NotAssigned_Counts Test">
+		<classes>
+			<class name="Tests.CO_Dashboard_Tests">
+				<methods>
+					<include name="verify_Next6Days_TotalCounts_With_AssignToMe_AssignToOthers_NotAssigned_Counts"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 04 CO_Dashboard -->
+	<test name="verify_8To30Days_TotalCounts_With_AssignToMe_AssignToOthers_NotAssigned_Counts Test">
+		<classes>
+			<class name="Tests.CO_Dashboard_Tests">
+				<methods>
+					<include name="verify_8To30Days_TotalCounts_With_AssignToMe_AssignToOthers_NotAssigned_Counts"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 05 CO_Dashboard -->
+	<test name="verify_Beyond30Days_TotalCounts_With_AssignToMe_AssignToOthers_NotAssigned_Counts Test">
+		<classes>
+			<class name="Tests.CO_Dashboard_Tests">
+				<methods>
+					<include name="verify_Beyond30Days_TotalCounts_With_AssignToMe_AssignToOthers_NotAssigned_Counts"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 06 CO_Dashboard -->
+	<test name="verify_TotalMenu_TotalCounts_With_AssignToMe_AssignToOthers_NotAssigned_Counts Test">
+		<classes>
+			<class name="Tests.CO_Dashboard_Tests">
+				<methods>
+					<include name="verify_TotalMenu_TotalCounts_With_AssignToMe_AssignToOthers_NotAssigned_Counts"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 07 CO_Dashboard -->
+	<test name="verify_ApprovalPendingMenu_TotalCounts_With_ApprovalPendingByMe_ApprovalPendingByOthers_Counts Test">
+		<classes>
+			<class name="Tests.CO_Dashboard_Tests">
+				<methods>
+					<include name="verify_ApprovalPendingMenu_TotalCounts_With_ApprovalPendingByMe_ApprovalPendingByOthers_Counts"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 08 CO_Dashboard -->
+	<test name="verify_RejectedTasksTotalCountsWith_AssignToMe_AssignToOthers_Counts Test">
+		<classes>
+			<class name="Tests.CO_Dashboard_Tests">
+				<methods>
+					<include name="verify_RejectedTasksTotalCountsWith_AssignToMe_AssignToOthers_Counts"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 09 CO_Dashboard -->
+	<test name="verify_CompletedMenu_TotalCounts_With_CompletedByMe_CompletedByOthers_Counts Test">
+		<classes>
+			<class name="Tests.CO_Dashboard_Tests">
+				<methods>
+					<include name="verify_CompletedMenu_TotalCounts_With_CompletedByMe_CompletedByOthers_Counts"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 10 CO_Dashboard -->
+	<test name="verify_DashboardTaskAnalytics_OverdueTotalCount_With_OverduePage_AllTask_Counts Test">
+		<classes>
+			<class name="Tests.CO_Dashboard_Tests">
+				<methods>
+					<include name="verify_DashboardTaskAnalytics_OverdueTotalCount_With_OverduePage_AllTask_Counts"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 11 CO_Dashboard -->
+	<test name="verify_DashboardTaskAnalytics_TodayTotalCount_With_TodayPage_AllTask_Counts Test">
+		<classes>
+			<class name="Tests.CO_Dashboard_Tests">
+				<methods>
+					<include name="verify_DashboardTaskAnalytics_TodayTotalCount_With_TodayPage_AllTask_Counts"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 12 CO_Dashboard -->
+	<test name="verify_DashboardTaskAnalytics_Next6DaysTotalCount_With_Next6DaysPage_AllTask_Counts Test">
+		<classes>
+			<class name="Tests.CO_Dashboard_Tests">
+				<methods>
+					<include name="verify_DashboardTaskAnalytics_Next6DaysTotalCount_With_Next6DaysPage_AllTask_Counts"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 013 CO_Dashboard -->
+	<test name="verify_DashboardTaskAnalytics_8To30DaysTotalCount_With_8To30DaysPage_AllTask_Counts Test">
+		<classes>
+			<class name="Tests.CO_Dashboard_Tests">
+				<methods>
+					<include name="verify_DashboardTaskAnalytics_8To30DaysTotalCount_With_8To30DaysPage_AllTask_Counts"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 14 CO_Dashboard -->
+	<test name="verify_DashboardTaskAnalytics_Beyond30DaysTotalCount_With_Beyond30DaysPage_AllTask_Counts Test">
+		<classes>
+			<class name="Tests.CO_Dashboard_Tests">
+				<methods>
+					<include name="verify_DashboardTaskAnalytics_Beyond30DaysTotalCount_With_Beyond30DaysPage_AllTask_Counts"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 15 CO_Dashboard -->
+	<test name="verify_DashboardTaskAnalytics_TotalMenuTotalCount_With_TotalPage_AllTasks_Count Test">
+		<classes>
+			<class name="Tests.CO_Dashboard_Tests">
+				<methods>
+					<include name="verify_DashboardTaskAnalytics_TotalMenuTotalCount_With_TotalPage_AllTasks_Count"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 16 CO_Dashboard -->
+	<test name="verify_DashboardTaskAnalytics_ApprovalPendingMenuTotalCountWith_ApprovalPendingAllTasks_Count Test">
+		<classes>
+			<class name="Tests.CO_Dashboard_Tests">
+				<methods>
+					<include name="verify_DashboardTaskAnalytics_ApprovalPendingMenuTotalCountWith_ApprovalPendingAllTasks_Count"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 17 CO_Dashboard -->
+	<test name="verify_DashboardTaskAnalytics_CompletedMenuTotalCount_With_CompletedAndRequestedPage_AllTasks_Count Test">
+		<classes>
+			<class name="Tests.CO_Dashboard_Tests">
+				<methods>
+					<include name="verify_DashboardTaskAnalytics_CompletedMenuTotalCount_With_CompletedAndRequestedPage_AllTasks_Count"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 18 CO_Dashboard -->
+	<test name="verify_DashboardTaskAnalytics_RejectedTasksMenuTotalCountWith_RejectedTasksPageAllTasks_Count Test">
+		<classes>
+			<class name="Tests.CO_Dashboard_Tests">
+				<methods>
+					<include name="verify_DashboardTaskAnalytics_RejectedTasksMenuTotalCountWith_RejectedTasksPageAllTasks_Count"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 19 CO_Dashboard -->
+	<test name="verify_Task_Repetition_Updates Test">
+		<classes>
+			<class name="Tests.CO_Dashboard_Tests">
+				<methods>
+					<include name="verify_Task_Repetition_Updates"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+
+</suite>

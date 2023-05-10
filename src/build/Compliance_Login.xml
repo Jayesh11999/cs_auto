@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Login Functionality">
+    <listeners>
+        <listener class-name="Config.RetryListener"></listener>
+    </listeners>
+    <!-- 01 Compliance_Login_Tests -->
+    <test name="verifyLoginWithValidComplianceOfficerCredentials Test">
+        <classes>
+            <class name="Tests.Compliance_Login_Tests">
+                <methods>
+                    <include name="verifyLoginWithValidComplianceOfficerCredentials"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 02 Compliance_Login_Tests -->
+    <test name="verifyLoginWithValidTeamMemberCredentials Test">
+        <classes>
+            <class name="Tests.Compliance_Login_Tests">
+                <methods>
+                    <include name="verifyLoginWithValidTeamMemberCredentials"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 03 Compliance_Login_Tests -->
+    <test name="verifyLoginWithValidApproverCredentials Test">
+        <classes>
+            <class name="Tests.Compliance_Login_Tests">
+                <methods>
+                    <include name="verifyLoginWithValidApproverCredentials"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
